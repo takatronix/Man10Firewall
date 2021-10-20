@@ -1,4 +1,5 @@
 #!/bin/bash
+git pull
 ufw enable
 ufw default allow
 ufw --force reset
