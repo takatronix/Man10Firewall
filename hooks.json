@@ -1,7 +1,7 @@
 [
     {
         "id": "ufw_update",
-        "execute-command": "sh update_ufw.sh",
+        "execute-command": "/root/update_ufw.sh",
         "command-working-directory": "/root"
     }
 ]
