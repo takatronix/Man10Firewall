@@ -1,6 +1,6 @@
 #!/bin/bash
 git pull
-ufw enable
+ufw --force enable
 ufw default allow
 ufw --force reset
 while read line;
