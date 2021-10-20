@@ -1,0 +1,7 @@
+[
+    {
+        "id": "ufw_update",
+        "execute-command": "sudo sh update_ufw.sh",
+        "command-working-directory": "."
+    }
+]
