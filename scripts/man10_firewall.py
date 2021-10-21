@@ -26,7 +26,8 @@ def ip_dictionary_to_ip_list(ip_dictionary: dict, threshold: int):
     result = []
     for ip in ip_dictionary.keys():
         if ip_dictionary[ip] < threshold:
-            result.append(ip)
+            continue
+        result.append(ip)
     return result
 
 
