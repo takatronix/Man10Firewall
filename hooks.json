@@ -1,7 +1,7 @@
 [
     {
         "id": "ufw_update",
-        "execute-command": "/root/Man10Firewall/update_ufw.sh",
+        "execute-command": "sh /root/Man10Firewall/update_ufw.sh",
         "command-working-directory": "/root/Man10Firewall"
     }
 ]
