@@ -9,3 +9,4 @@ done < iplist.txt
 ufw --force enable
 ufw reload
 ufw status verbose
+echo 終了
