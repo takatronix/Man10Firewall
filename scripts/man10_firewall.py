@@ -57,6 +57,7 @@ def main():
 
     result = convert_log_to_ip_dictionary(arguments.log)
     result = ip_dictionary_to_ip_list(result, arguments.threshold)
+    result.sort()
     export_to_file(result, arguments.output)
     print("出力が完了しました")
 
